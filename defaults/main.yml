@@ -1,0 +1,12 @@
+---
+# defaults file for ansible-role-timezone
+
+# The name of the timezone to set
+timezone_zonename: Etc/UTC
+
+# Linux: set hwclock to match UTC or localtime?
+# (Choices: local, UTC)
+# timezone_hwclock: UTC
+
+# Allow timezone role to restart cron daemon after a timezone change
+timezone_restart_cron_daemon_allowed: true

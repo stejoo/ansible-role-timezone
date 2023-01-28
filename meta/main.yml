@@ -1,0 +1,25 @@
+---
+galaxy_info:
+  author: Stefan Joosten
+  description: Role that configures a system's timezone setting
+  issue_tracker_url: https://github.com/stejoo/ansible-role-timezone/issues
+
+  license: GPL-3.0-only
+
+  min_ansible_version: 2.9
+
+  platforms:
+    - name: Fedora
+      versions:
+        - all
+    - name: EL
+      versions:
+        - all
+
+  galaxy_tags:
+    - timezone
+    - time
+    - timedatectl
+    - tz
+
+dependencies: []
